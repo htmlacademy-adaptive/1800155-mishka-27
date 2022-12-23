@@ -3,14 +3,14 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), url(../../fonts/opensansbold.woff2) format("woff2"), url(../../fonts/opensansbold.woff) format("woff");
+  src: local("Open Sans"), url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  src: local("Open Sans"), url(../../fonts/opensansbold.woff2) format("woff2"), url(../../fonts/opensansbold.woff) format("woff");
+  src: local("Open Sans"), url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
   font-display: swap;
 }
 .page__body {
@@ -56,14 +56,14 @@
   position: absolute;
   top: 37%;
   right: 10%;
-  background-image: url(../img/header/menu.svg);
+  background-image: url("../img/header/menu.svg");
   background-size: 20px 14px;
   background-repeat: no-repeat;
   border-style: none;
   background-color: transparent;
 }
 .main-nav__toggle:focus {
-  background-image: url(../img/header/menu-close.svg);
+  background-image: url("../img/header/menu-close.svg");
   background-size: 21px 20px;
 }
 
@@ -147,7 +147,7 @@
   margin-right: 27px;
 }
 .social__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .social__link {
@@ -156,17 +156,17 @@
   height: 20px;
 }
 .social__link--vk {
-  background-image: url(../../../img/social/vk.svg);
+  background-image: url("../img/social/vk.svg");
   background-repeat: no-repeat;
   background-size: 27px 17px;
 }
 .social__link--youtube {
-  background-image: url(../../../img/social/youtube.svg);
+  background-image: url("../img/social/youtube.svg");
   background-repeat: no-repeat;
   background-size: 24px 19px;
 }
 .social__link--telegram {
-  background-image: url(../../../img/social/tg.svg);
+  background-image: url("../img/social/tg.svg");
   background-repeat: no-repeat;
   background-size: 20px 17px;
 }
@@ -194,7 +194,7 @@
 .promo__title-wrapper {
   min-height: 283px;
   background-color: #fafafa;
-  background-image: url(../../img/promo/hero-mobile@2x1.jpeg);
+  background-image: url("../img/promo/hero-mobile@2x1.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -244,7 +244,7 @@
   flex-direction: column;
   background-color: #ffffff;
   padding: 33px 30px 36px 30px;
-  background-image: url(../../img/zigzag-line-desktop.svg);
+  background-image: url("../img/zigzag-line-desktop.svg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -330,35 +330,35 @@
   padding-top: 54px;
 }
 .advantages__item:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .advantages__item--flower {
-  background-image: url(../img/about/flower.svg);
+  background-image: url("../img/about/flower.svg");
   background-repeat: no-repeat;
   background-size: 32px 38px;
 }
 .advantages__item--money {
-  background-image: url(../img/about/money.svg);
+  background-image: url("../img/about/money.svg");
   background-repeat: no-repeat;
   background-size: 47px 27px;
 }
 .advantages__item--likes {
-  background-image: url(../img/about/likes.svg);
+  background-image: url("../img/about/likes.svg");
   background-repeat: no-repeat;
   background-size: 34px 27px;
 }
 .advantages__item--knitting {
-  background-image: url(../img/about/knitting.svg);
+  background-image: url("../img/about/knitting.svg");
   background-repeat: no-repeat;
   background-size: 35px 34px;
 }
 .advantages__item--rocket {
-  background-image: url(../img/about/rocket.svg);
+  background-image: url("../img/about/rocket.svg");
   background-repeat: no-repeat;
   background-size: 55px 23px;
 }
 .advantages__item--gift {
-  background-image: url(../img/about/gift.svg);
+  background-image: url("../img/about/gift.svg");
   background-repeat: no-repeat;
   background-size: 33px 32px;
 }
@@ -370,8 +370,8 @@
 .reviews {
   display: flex;
   flex-direction: column;
-  padding: 0px 30px 45px 30px;
-  background-image: url(../../img/zigzag-line-desktop.svg);
+  padding: 0 30px 45px 30px;
+  background-image: url("../img/zigzag-line-desktop.svg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -421,7 +421,7 @@
   display: flex;
   justify-content: space-around;
   min-height: 52px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding-top: 18px;
   padding-bottom: 38px;
 }
@@ -438,10 +438,10 @@
   margin: 0;
 }
 .control__button--left {
-  background-image: url(../img/review/huge-arrow-left.svg);
+  background-image: url("../img/review/huge-arrow-left.svg");
 }
 .control__button--right {
-  background-image: url(../img/review/huge-arrow-right.svg);
+  background-image: url("../img/review/huge-arrow-right.svg");
 }
 
 .page-contacts {
@@ -508,7 +508,7 @@
 }
 
 .catalog {
-  padding: 30px 29px 0px 29px;
+  padding: 30px 29px 0 29px;
 }
 
 .product {
@@ -579,14 +579,14 @@
   width: 20px;
   height: 19px;
   display: inline-flex;
-  background-image: url(../../../img/product/cart.svg);
+  background-image: url("../img/product/cart.svg");
   background-repeat: no-repeat;
   border-style: none;
   background-color: transparent;
 }
 
 .process {
-  margin: 0px 29px 58px 29px;
+  margin: 0 29px 58px 29px;
   display: flex;
   flex-direction: column;
   border: 1px solid #f1f1f1;
@@ -616,7 +616,7 @@
   align-items: center;
   width: 260px;
   height: 150px;
-  background-image: url(../../../img/process/video-mobile-1.jpg);
+  background-image: url("../img/process/video-mobile-1.jpg");
   background-repeat: no-repeat;
   margin-bottom: 35px;
 }
@@ -712,6 +712,9 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 
 .radio {
@@ -749,7 +752,6 @@
 .field {
   display: flex;
   flex-direction: column;
-  padding-bottom: 22px;
 }
 
 .field__input {
@@ -807,7 +809,7 @@
   border: 2px solid #000000;
 }
 .textarea-input::placeholder {
-  padding: 17px 17px 0px 17px;
+  padding: 17px 17px 0 17px;
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
@@ -846,6 +848,12 @@
   background-color: #ffffff;
 }
 
+.popup__form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
 .popup__fieldset {
   border-style: none;
 }
@@ -869,11 +877,16 @@
 .popup__list {
   display: flex;
   justify-content: center;
+  gap: 7px;
+  list-style-type: none;
   padding: 0;
 }
 
-.radio-popup {
-  width: 82px;
-  height: 52px;
+.popup__button {
+  margin: 0;
+  padding: 18px 82px;
+  background-color: #63d1bb;
+  color: #ffffff;
+  border-style: none;
 }
 /*# sourceMappingURL=style.css.map */
