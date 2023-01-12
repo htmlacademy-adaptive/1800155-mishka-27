@@ -1,0 +1,8 @@
+.main-product {
+  padding: 31px 30px 36px 30px;
+}
+
+.main-product__wrapper {
+  display: grid;
+  grid-template-rows: 31px min-content min-content min-content min-content 315px min-content min-content;
+}
